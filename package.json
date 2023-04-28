@@ -3,6 +3,6 @@
     "react-dev-utils": "^10.0.0"
   },
   "scripts": {
-    "build": "react-scripts build"
+    "build": "react-dev-utils build"
   }
 }
