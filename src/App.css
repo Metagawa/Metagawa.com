@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html, body {
+  display: block;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-size: 32px 32px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAACn0lEQVR4Xu3dQW4CQQxE0eFmHJ2bJUhkF7prwYZ2vUhZZZDG9pfd7SqR23VdP89fP6UZuAGgtPJ/YQOgu/4XAADgDNDMgA7QXP1n7AAAgBHQzEDsAPf7fZufx+Ox/bvPf3f+AFAOMAAAsD8DaOHf3cI/HcE6gA6gA+xOsdM7oA6gA+gAOkDzJqQ89jgCyvMzPnwAjC/xPkAAAIAY1MyADtBcfX6A8uoDAABxBExfhX4qppz+eQBYBVsFWwVvMmAE8APwBG4y4AxQPkMBAICjXdFuAeUARwCsSmZnAACz6xujA0BM0ewHADC7vjE6AMQUzX4AALPrG6MDQEzR7AcAMLu+MboIADGIGEQMIgatM3C6GNL+/kYALYAjiCOII2iZgemHYCPACDACjIC4LvDA1AzEETA1cHG9MgCAchIAAADfD9DMgA7QXH1ngPLqAwAAcQRMX4VSA8M/jgQAQwhDCEMIQ8gqA6ePEGcAaiA1kBrIEMIQssqAW0D5LcCqZHYG4iFwdviiA0A5AwAAAD9AMwM6QHP1ycHl1QcAAOIIsAgqXwQBAAD8APwA/AD8AIsMnG6IaH9/h0CGEIYQhhCGEIYQK5HODMQzQGdaeqIGQE+t30YKAADwAzQzoAM0V58cXF59AAAgjgByMDmYHEwOJgeTg8nBbzNwupzsDEAOJgeTg8nB5OBVBlwDy6+BViWzMxAPgbPDFx0AyhkAAAD4AZoZ0AGaq08OLq8+AAAQR4BFUPkiCAAAYAhhCGEIYQhhCGEIeZeB0x0x7e/vFsARxBHEEWQfUpuBOAJqM1MSOABKCr0KEwAA4AdoZkAHaK4+Obi8+gAAQBwB5GByMDmYHEwOJgeTg8nB5OD/GThdTnYIJAeTg8nBmwy4Bs6+Bv4CdGnwTA7M3VMAAAAASUVORK5CYII=");
+  background-repeat: repeat;
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  outline: none;
+}
+
+canvas {
+  display: block;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  width:99vw; 
+  top: 0;
+  left: 0;
+}
+
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}

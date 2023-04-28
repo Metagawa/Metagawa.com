@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #61dafb;
+}
